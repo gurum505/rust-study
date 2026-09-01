@@ -1,6 +1,6 @@
 *.pdb
 *.exe
-hello_cargo/target/
+*/target/
 .vscode/
 .idea/
 *.swp

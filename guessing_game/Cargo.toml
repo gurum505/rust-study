@@ -1,0 +1,12 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.8.5"
+# ^0.8.5의 축약형
+# 메이저버전 1.x -> 2.x or 마이너 버전, 예: 0.8 -> 0.9의 업데이트는 직접 수정해서 적용해야한다.
+# cargo update로 가능한건 한정되어있다.
+
+# cargo doc --open으로 문서열람가능
