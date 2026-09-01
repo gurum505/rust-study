@@ -1,2 +1,8 @@
 *.pdb
 *.exe
+hello_cargo/target/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
