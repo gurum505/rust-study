@@ -24,7 +24,7 @@ fn main() {
     let five_hundred = x.0;
 
     //러스트는 여러분의 함수 위치를 고려하지 않으며, 호출하는 쪽에서 볼 수 있는 스코프 어딘가에 정의만 되어있으면 됩니다.
-    another_function();
+    another_function(five_hundred);
 
     //구문은 값을 반환하지 않습니다
     let y = 6;
@@ -40,6 +40,7 @@ fn main() {
     let condition = true;
     let number = if condition { 5 } else { 6 };
 
+    let counter = 0;
     let result = loop {
         counter += 1;
 
